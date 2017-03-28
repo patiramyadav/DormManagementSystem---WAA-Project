@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC
+	"-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+	"http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+<tiles-definitions>
+
+	<definition name="home" extends="DefaultTemplate">
+		<put-attribute name="body" value="/WEB-INF/views/home.jsp" />
+	</definition>
+	
+	<definition name="errorPage" extends="DefaultTemplate">
+		<put-attribute name="body" value="/WEB-INF/views/errorPage.jsp" />
+	</definition>
+	
+	<definition name="login" extends="DefaultTemplate">
+		<put-attribute name="body" value="/WEB-INF/views/login.jsp" />
+	</definition>
+	
+	<definition name="feedback" extends="DefaultTemplate">
+		<put-attribute name="body" value="/WEB-INF/views/feedback.jsp" />
+	</definition>
+	
+	<definition name="listFeedbacks" extends="DefaultTemplate">
+		<put-attribute name="body" value="/WEB-INF/views/listFeedbacks.jsp" />
+	</definition>
+	
+	<definition name="studentAuth" extends="DefaultTemplate">
+		<put-attribute name="body" value="/WEB-INF/views/studentAuth.jsp" />
+	</definition>
+	
+	<definition name="adminAuth" extends="DefaultTemplate">
+		<put-attribute name="body" value="/WEB-INF/views/adminAuth.jsp" />
+	</definition>
+	
+	<definition name="staffAuth" extends="DefaultTemplate">
+		<put-attribute name="body" value="/WEB-INF/views/staffAuth.jsp" />
+	</definition>
+	
+	<definition name="building/building" extends="DefaultTemplate">
+		<put-attribute name="body" value="/WEB-INF/views/building/building.jsp" />
+	</definition>
+	
+	<definition name="room/room" extends="DefaultTemplate">
+		<put-attribute name="body" value="/WEB-INF/views/room/room.jsp" />
+	</definition>
+	
+	<definition name="room/roomAssignment" extends="DefaultTemplate">
+		<put-attribute name="body" value="/WEB-INF/views/room/roomAssignment.jsp" />
+	</definition>
+	
+	<definition name="maintenance/index" extends="DefaultTemplate">
+		<put-attribute name="body" value="/WEB-INF/views/maintenance/front/index.jsp" />
+	</definition>
+	
+	<definition name="maintenance/list" extends="DefaultTemplate">
+		<put-attribute name="body" value="/WEB-INF/views/maintenance/admin/list.jsp" />
+	</definition>
+	
+	<definition name="maintenance/update" extends="DefaultTemplate">
+		<put-attribute name="body" value="/WEB-INF/views/maintenance/admin/update.jsp" />
+	</definition>
+	
+	<definition name="item/index" extends="DefaultTemplate">
+		<put-attribute name="body" value="/WEB-INF/views/item/index.jsp" />
+	</definition>
+	
+	<definition name="item/listItems" extends="DefaultTemplate">
+		<put-attribute name="body" value="/WEB-INF/views/item/listItems.jsp" />
+	</definition>
+	
+	<definition name="form/checkinForm" extends="DefaultTemplate">
+		<put-attribute name="body" value="/WEB-INF/views/form/checkinForm.jsp" />
+	</definition>
+	
+	<definition name="form/checkoutForm" extends="DefaultTemplate">
+		<put-attribute name="body" value="/WEB-INF/views/form/checkoutForm.jsp" />
+	</definition>
+	<definition name="student/student" extends="DefaultTemplate">
+		<put-attribute name="body" value="/WEB-INF/views/student/student.jsp" />
+	</definition>
+		<definition name="room/roomChangeRequest" extends="DefaultTemplate">
+		<put-attribute name="body" value="/WEB-INF/views/roomchange/roomChangeRequest.jsp" />
+	</definition>
+	
+	<definition name="staff/viewCheckIn" extends="DefaultTemplate">
+		<put-attribute name="body" value="/WEB-INF/views/staff/viewCheckIn.jsp" />
+	</definition>
+	
+	<definition name="staff/viewCheckOut" extends="DefaultTemplate">
+		<put-attribute name="body" value="/WEB-INF/views/staff/viewCheckOut.jsp" />
+	</definition>
+	
+	<definition name="staff/viewCheckOut/details" extends="DefaultTemplate">
+		<put-attribute name="body" value="/WEB-INF/views/staff/details.jsp" />
+	</definition>
+</tiles-definitions>
